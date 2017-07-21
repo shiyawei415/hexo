@@ -21,7 +21,7 @@ categories:
 
 ### . 安装好后，打开gitbash，查看版本：
 
-### 命令：==git version== 
+### 命令: git version  **文字**
 ![](http://otbt7qcgu.bkt.clouddn.com//17-7-19/24323927.jpg)
 
 ### 然后你就可以在这里发挥你的聪明才智了
@@ -33,23 +33,23 @@ Hexo是基于nodeJS环境的静态博客，里面的npm工具很有用啊，所�
 
 ### . [下载地址](https://nodejs.org/en/)
 
-### . 安装步骤：反正下载好msi文件后，双击打开安装，也是一路next，不过在Custom Setup这一步记得选 ==Add to PATH== ,这样你就不用自己去配置电脑上环境变量了，装完在按 ==win + r== 快捷键调出运行，然后输入cmd确定，在cmd中输入path可以看到你的node是否配置在里面（环境变量），没有的话你就自由发挥吧。
+### . 安装步骤：反正下载好msi文件后，双击打开安装，也是一路next，不过在Custom Setup这一步记得选 ++Add to PATH++ ,这样你就不用自己去配置电脑上环境变量了，装完在按 ++win + r++ 快捷键调出运行，然后输入cmd确定，在cmd中输入path可以看到你的node是否配置在里面（环境变量），没有的话你就自由发挥吧。
     
 ### . 查看版本：
 
-### &emsp;&emsp;  **.** 命令：==node -v==
+### &emsp;&emsp;  **.** 命令：++node -v++
 ![](http://otbt7qcgu.bkt.clouddn.com//17-7-19/8387677.jpg)
 
 ### 又到自由发挥的时候了
 
 # 3. 安装hexo
 
-看到这么多安装，千万不要紧张，小哥哥小姐姐们一定要稳住，别怕，因为后面的东西都是在gitbash中用npm工具安装就好了。
+看到这么多安装，千万不要紧张，一定要稳住，别怕，因为后面的东西都是在gitbash中用npm工具安装就好了。
 
 
-### . 先创建一个文件夹（用来存放所有blog的东西），然后==cd==到该文件夹下。
+### . 先创建一个文件夹（用来存放所有blog的东西），然后++cd++到该文件夹下。
 
-### . 安装hexo命令：==npm i -g hexo==
+### . 安装hexo命令：++npm i -g hexo++
 
 ### . 安装完成后，查看版本：
 
@@ -85,7 +85,7 @@ Hexo是基于nodeJS环境的静态博客，里面的npm工具很有用啊，所�
 
 ### . 没账号的创建账号，有账号的看下面。
 
-1. 创建一个repo，名称为==yourname.github.io==其中yourname是你的github名称，按照这个规则创建才有用哦，如下：
+1. 创建一个repo，名称为++yourname.github.io++其中yourname是你的github名称，按照这个规则创建才有用哦，如下：
 
 ![](http://otbt7qcgu.bkt.clouddn.com//17-7-19/60398318.jpg)
 ![](http://otbt7qcgu.bkt.clouddn.com//17-7-19/15906142.jpg)
@@ -151,7 +151,7 @@ hexo deploy
 
 ### . 第一步购买域名：随便在哪个网站买一个就好了，我是在阿里云购买的[shiyawei.com](http://shiyawei.com/)，欢迎访问。
 
-### . 第二步添加CNAME：在项目的source文件夹下新建一个名为CNAME的文件，在里面添加你购买的域名，比如我添加的是==shiyawei.com==只能添加一个哦。
+### . 第二步添加CNAME：在项目的source文件夹下新建一个名为CNAME的文件，在里面添加你购买的域名，比如我添加的是[shiyawei.com](http://shiyawei.com/)只能添加一个哦。
 
 ### . 到DNS中添加一条记录：
 
