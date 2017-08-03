@@ -33,11 +33,11 @@ Hexo是基于nodeJS环境的静态博客，里面的npm工具很有用啊，所�
 
 ### . [下载地址](https://nodejs.org/en/)
 
-### . 安装步骤：反正下载好msi文件后，双击打开安装，也是一路next，不过在Custom Setup这一步记得选 ++Add to PATH++ ,这样你就不用自己去配置电脑上环境变量了，装完在按 ++win + r++ 快捷键调出运行，然后输入cmd确定，在cmd中输入path可以看到你的node是否配置在里面（环境变量），没有的话你就自由发挥吧。
+### . 安装步骤：反正下载好msi文件后，双击打开安装，也是一路next，不过在Custom Setup这一步记得选 Add to PATH ,这样你就不用自己去配置电脑上环境变量了，装完在按 win + r 快捷键调出运行，然后输入cmd确定，在cmd中输入path可以看到你的node是否配置在里面（环境变量），没有的话你就自由发挥吧。
     
 ### . 查看版本：
 
-### &emsp;&emsp;  **.** 命令：++node -v++
+### &emsp;&emsp;  **.** 命令：node -v
 ![](http://otbt7qcgu.bkt.clouddn.com//17-7-19/8387677.jpg)
 
 ### 又到自由发挥的时候了
@@ -49,7 +49,7 @@ Hexo是基于nodeJS环境的静态博客，里面的npm工具很有用啊，所�
 
 ### . 先创建一个文件夹（用来存放所有blog的东西），然后++cd++到该文件夹下。
 
-### . 安装hexo命令：++npm i -g hexo++
+### . 安装hexo命令：npm i -g hexo
 
 ### . 安装完成后，查看版本：
 

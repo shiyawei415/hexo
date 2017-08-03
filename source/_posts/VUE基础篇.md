@@ -61,7 +61,7 @@ Vue.js是当下很火的一个JavaScript MVVM库，它是以数据驱动和组�
 
 说到MVVM，先来看看下面下面这张图
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161113194248577-1540305634.png)
+![](http://otbt7qcgu.bkt.clouddn.com/17-7-21/47751333.jpg)
 
 这张图足以说明MVVM的核心功能，在这三者里面，ViewModel无疑起着重要的桥梁作用。
 
@@ -75,7 +75,7 @@ Vue.js是当下很火的一个JavaScript MVVM库，它是以数据驱动和组�
 
 关于第一个实例，无疑是最简单的应用。要使用vue，不用多说，肯定是先去github上面下载源码喽，然后引入到我们的项目中来，需要引用的js就一个vue.js，版本是2.0.5。
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161113210624452-1027999713.png)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/5136786.jpg)
 
 先来看一个最简单的例子：
 
@@ -113,13 +113,13 @@ Vue.js是当下很火的一个JavaScript MVVM库，它是以数据驱动和组�
 *   el：表示绑定的Dom元素，此例子中表示的是父级的Dom元素。
 *   data：需要绑定的数据Model。
 
-如果仅仅是展示，只需要 <span class="cnblogs_code">姓名：{{ Name }}</span> 这样写就好了。运行的效果如下：
+如果仅仅是展示，只需要 姓名：{{ Name }} 这样写就好了。运行的效果如下：
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161113204618702-2059130554.png)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/27546379.jpg)
 
-值得一提的是 <span class="cnblogs_code">{{ Name }}</span> 这种写法仅仅只能实现单向绑定，只有在Model里面数据发生变化的时候会触发界面Dom元素的变化，反之并不能触发Model数据的变化。可以通过浏览器的Console来验证这一理论。
+值得一提的是 {{ Name }} 这种写法仅仅只能实现单向绑定，只有在Model里面数据发生变化的时候会触发界面Dom元素的变化，反之并不能触发Model数据的变化。可以通过浏览器的Console来验证这一理论。
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161114101817420-1132976771.gif)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/46063052.jpg)
 
 那么，对于双向绑定的机制，Vue是如何实现的呢？
 
@@ -159,15 +159,15 @@ vue里面提供了v-model指令，为我们方便实现Model和View的双向绑�
 
 得到效果：
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161114103414545-284342155.gif)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/42066679.jpg)
 
 双向绑定效果展示：
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161114103738810-574896604.gif)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/74080426.jpg)
 
 通过v-model指令，很方便的实现了Model和View之间的双向绑定。单从这种绑定的方式来看，还是比Knockout要简单一点，至少不用区分什么普通属性和监控属性。
 
-<div style="text-align: right">[回到顶部](#_labelTop)<a name="_label3"></a></div>
+
 
 # 四、常用指令
 
@@ -226,7 +226,7 @@ v-text、v-html这两者分为一组很好理解，一个用于绑定文本，�
 
 效果如下：
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161114115449654-1270095991.png)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/26429477.jpg)
 
 代码说明：
 
@@ -293,7 +293,7 @@ v-model上面有介绍它的双向绑定功能，对于v-model指令，vue限定
 
 以上列举了v-model的一些常见用法，应该都不难，基本都是双向绑定，效果如下：
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161114151246076-1082399133.gif)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/73104901.jpg)
 
 关于selece的数据源的动态绑定，我们留在v-for指令的时候介绍。
 
@@ -337,11 +337,11 @@ v-model上面有介绍它的双向绑定功能，对于v-model指令，vue限定
 
 得到结果：
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161114153343576-151718156.png)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/1030330.jpg)
 
 只有有一点编程基础，上述应该不难看懂。
 
-<div style="text-align: right;">[回到顶部](#_labelTop)<a name="_label3_3"></a></div>
+
 
 ## 4、v-show指令
 
@@ -380,9 +380,9 @@ v-show还常和v-else一起使用，表示如果v-show条件满足，则显示�
 
 得到效果：
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161114155134888-858138586.png)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/64733233.jpg)
 
-<div style="text-align: right;">[回到顶部](#_labelTop)<a name="_label3_4"></a></div>
+
 
 ## 5、v-for指令
 
@@ -417,7 +417,7 @@ v-show还常和v-else一起使用，表示如果v-show条件满足，则显示�
 
 效果：
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161114165537029-868472103.png)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/21938348.jpg)
 
 除了基础数据之外，还支持Json数组的绑定。比如：
 
@@ -444,7 +444,7 @@ v-show还常和v-else一起使用，表示如果v-show条件满足，则显示�
 
 效果：
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161114165930795-783712142.png)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/42066679.jpg)
 
 在v-for里面，可以使用`<template>` 标签来渲染多个元素块，下面就基于bootstrap样式使用v-for、v-if、v-else等实现一个简单的demo。
 
@@ -478,7 +478,7 @@ v-show还常和v-else一起使用，表示如果v-show条件满足，则显示�
 
 得到效果
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161115093728076-324094916.png)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/34467033.jpg)
 
 是不是很easy！需要说明一点的是，pages是10，然后遍历它的时候，page的值会从1依次到10。
 
@@ -512,9 +512,9 @@ v-for指令除了支持数据对象的迭代以外，还支持普通Json对象�
 
 得到效果：
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161114170903545-1554785575.png)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/25456128.jpg)
 
-<div style="text-align: right;">[回到顶部](#_labelTop)<a name="_label3_5"></a></div>
+
 
 ## 6、v-once指令
 
@@ -548,11 +548,11 @@ v-once表示只渲染元素和组件一次。随后的重新渲染,元素/组件
 
 效果动态图：
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161114172241076-46897422.gif)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/37900123.jpg)
 
 可以看出，只要使用v-once指令的，View和Model之间除了初次渲染同步，之后便不再同步，而同一次绑定里面没使用v-once指令的还是会继续同步。
 
-<div style="text-align: right;">[回到顶部](#_labelTop)<a name="_label3_6"></a></div>
+
 
 ## 7、v-bind指令
 
@@ -605,7 +605,7 @@ v-once表示只渲染元素和组件一次。随后的重新渲染,元素/组件
 
 得到效果如下：
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161115101646279-153825235.png)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/40034923.jpg)
 
 关于自定义属性的绑定，打算在综合应用里面来说。
 
@@ -642,7 +642,7 @@ v-once表示只渲染元素和组件一次。随后的重新渲染,元素/组件
 
 这段代码是一个最简单的应用，直接在click事件里面执行逻辑，改变变量的值。效果如下：
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161115103457842-1914428688.gif)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/5424509.jpg)
 
 除了直接在标签内写处理逻辑，还可以定义方法事件处理器。
 
@@ -681,9 +681,9 @@ v-once表示只渲染元素和组件一次。随后的重新渲染,元素/组件
 
 结果应该不难猜。
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161115104059513-533400322.gif)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/56090577.jpg)
 
-<div style="text-align: right;">[回到顶部](#_labelTop)<a name="_label3_8"></a></div>
+
 
 ## 9、实例一：30分钟搞定增删改查
 
@@ -788,7 +788,7 @@ v-once表示只渲染元素和组件一次。随后的重新渲染,元素/组件
 
 行内编辑效果如下：
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161115134220795-584069517.gif)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/52361490.jpg)
 
 
 
@@ -910,7 +910,7 @@ v-once表示只渲染元素和组件一次。随后的重新渲染,元素/组件
 
 来看看效果吧：
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161115144239982-426306474.gif)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/44749768.jpg)
 
 什么，数据少了不过瘾？那我们加一点数据试试呗。调整一下data变量，其他不用做任何变化。
 
@@ -946,7 +946,7 @@ var data = {
 
 测试效果：
 
-![](http://images2015.cnblogs.com/blog/459756/201611/459756-20161115144638373-2064246540.gif)
+![](http://otbt7qcgu.bkt.clouddn.com//17-7-21/68457442.jpg)
 
 如果再进一步封装，是不是有点分页组件的概念了。简单吧！当然，这只是为了体现常用指令而提供的一个实现思路，可能很多地方都有待优化，待深入研究组件之后再进一步封装。
 
