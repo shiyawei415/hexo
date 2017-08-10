@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 师亚伟~随便写写
-subtitle: shiyawei
+title: 亚伟~web前端开发
+subtitle: shiyawei'Blog
 description: 前端界的一枚菜鸟
 author: 师亚伟
 language: zh-Hans
@@ -106,3 +106,5 @@ fields:
 - slug
 - path
 - content:strip  
+
+
