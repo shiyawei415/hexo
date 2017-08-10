@@ -2,10 +2,7 @@
 layout: w
 title: javaScript-浏览器版本、操作系统、内核、设备判断
 date: 2017-03-15 11:16:57
-tags: 
-
-- javascript
-- 浏览器
+tags: [javascript,浏览器]
 
 
 categories: 

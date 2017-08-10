@@ -82,8 +82,15 @@ search:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/shiyawei415/blog.git
-  #repo: https://git.coding.net/shiyawei/blog.git
+  #repo:
+  #coding: git@git.coding.net:shiyawei/blog.git
+  #github: https://github.com/shiyawei415/blog.git
+
+	
+  
+  
+  #repo: https://github.com/shiyawei415/blog.git
+  repo: https://git.coding.net/shiyawei/blog.git
 
   branch: master
   
